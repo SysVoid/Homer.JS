@@ -18,6 +18,7 @@ function randomProperty(object) {
 }
 
 (function () {
+	
 	var homers = {
 		0: require('./homers/1'),
 		1: require('./homers/2'),
