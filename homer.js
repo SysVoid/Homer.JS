@@ -8,14 +8,10 @@
  * Twitter: https://twitter.com/SysVoid
  */
 
-function randomProperty(object) {
-	var selected;
-	var count = 0;
-	for (var prop in object)
-		if (Math.random() < 1 / ++count)
-			selected = prop;
-	return selected;
-}
+var randomProperty = function (object) {
+	var keys = Object.keys(object);
+	return object[keys[keys.length * Math.random() << 0]];
+};
 
 (function () {
 	
@@ -25,6 +21,6 @@ function randomProperty(object) {
 		2: require('./homers/3')
 	};
 	
-	console.log(homers[randomProperty(homers)]);
+	console.log(randomProperty(homers));
 	
 })();
