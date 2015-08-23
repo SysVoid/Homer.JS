@@ -7,5 +7,4 @@ Node.JS
 # Using Homer.JS
 To use Homer.JS, run the following command in your terminal:
 ```bash
-curl -O LINK PENDING | node
-```
+curl -O LINK PENDING | node```
