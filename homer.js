@@ -21,6 +21,14 @@ var randomProperty = function (object) {
 		2: require('./homers/3')
 	};
 	
-	console.log(randomProperty(homers));
+	if (process.argv[2] != null) {
+		if (homers[process.argv[2]-1] != null) {
+			console.log(homers[process.argv[2]-1]);
+		} else {
+			console.log("Doh! A doughnut ran past while I was trying to find it.");
+		}
+	} else {
+		console.log(randomProperty(homers));
+	}
 	
 })();
