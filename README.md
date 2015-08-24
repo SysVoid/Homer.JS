@@ -10,4 +10,4 @@ To use Homer.JS, run the following command in your terminal:
 curl -Ss https://raw.githubusercontent.com/SysVoid/Homer.JS/master/homer.sh | bash
 ```
 # A Picture (Requested by RGBKRK)
-![Images](https://i.imgur.com/1pvEwtF.png
+![Images](https://i.imgur.com/1pvEwtF.png)
