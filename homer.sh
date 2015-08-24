@@ -11,7 +11,7 @@ echo "> Unzipping archive.";
 unzip -q master.zip;
 
 echo "> Moving files...";
-mv Homer.JS-master/* ./; rm -rf master*;
+mv Homer.JS-master/* ./; rm -rf Homer.JS-master*;
 
 echo "> Running for the first time...";
 node homer;
